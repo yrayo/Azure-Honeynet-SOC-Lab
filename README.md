@@ -51,7 +51,7 @@ At this point, the infrastructure looks like this:
 ![PING screenshot](images/PING1.png)
 
 At this point, our architecture looks like this:
-![Architecture2 screenshot](images/Architecture2.png)
+![Architecture2 screenshot](images/Architecture2.PNG)
 
 
 6. Create Log Analytics workspace and connect VM.
