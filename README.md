@@ -36,22 +36,24 @@ Architecture Components:
 ![No VM screenshot](images/VM1.PNG)
 ![New VM screenshot](images/VM2.PNG)
 
-  At this point, the infrastructure looks like this:
+At this point, the infrastructure looks like this:
 ![New infrastructure screenshot](images/Infrastructure.PNG)
 
 ### 4. Edit Network Security Group to open inbound traffic.
+Add lab NSG rule (Source: `Any`, Destination Port: `*`, Action: `Allow`).
 ![NSG screenshot1](images/NSG1.png)
 ![NSG screenshot2](images/NSG2.png)
 ![NSG screenshot3](images/NSG3.PNG)
 
-### 5. Disable local Windows Firewall on the VM (Windows OS Machine). With your local machine, RDP into the VM machine. Then, ping your vulnerable machine to confirm that it's accessible to everyone.
+### 5. Disable local Windows Firewall on the VM (Windows OS Machine). 
+With your local host machine, RDP into the VM machine. Then, ping your vulnerable machine to confirm that it's accessible to everyone.
 ![RDP screenshot](images/RDP1.png)
 
 ![FIREWALL screenshot](images/FIREWALL1.png)
 
 ![PING screenshot](images/PING1.png)
 
-  At this point, our architecture looks like this:
+At this point, our architecture looks like this:
 ![Architecture2 screenshot](images/Architecture2.PNG)
 
 ### 6. Create Log Analytics workspace and connect VM.
@@ -65,7 +67,7 @@ Architecture Components:
 ![Architecture 3 screenshot](images/Architecture4.PNG)
 
 ### 8. Import GeoIP watchlist into Sentinel.
-
+Import Watchlists (GeoIP)
 
 ### 9. Run KQL queries to geo-locate traffic.
 
