@@ -105,4 +105,10 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 - GeoIP shows global distribution of sources.
 ![Attack Map Geolocation 1 screenshot](images/AttachMapGeo1.PNG)
 
+### Post-hardening of NSG and VM Firewall Observations:
+- VM Firewall turned on and Azure NSG setting updated to secure system
+![PostFirewall screenshot](images/PostFirewall.PNG)
+![PostNSG screenshot](images/PostNSGSettings.PNG)
+
+
 ## Conclusion + Lesson Learned
