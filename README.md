@@ -61,7 +61,8 @@ Architecture Components:
 
 ### 7. Create/enable Azure Sentinel, connect to workspace, and ensure SecurityEvent logs (Windows) are forwarding to Log Analytics.
 ![New Sentinel screenshot](images/SentinelInstalled.PNG)
-
+![Architecture 3 screenshot](images/Architecture4.PNG)
+![Log Forwarding screenshot](images/LogForwarding.PNG)
 ![Architecture 3 screenshot](images/Architecture4.PNG)
 
 ### 8. Import GeoIP watchlist into Sentinel.
