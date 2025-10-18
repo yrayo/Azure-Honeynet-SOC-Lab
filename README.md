@@ -91,6 +91,11 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 
 ![Architecture 5 screenshot](images/Architecture5.png)
 
-### 11. Harden environment and re-run analysis.
+### 11. Testing & Results
+Pre-hardening of NSG and VM Firewall Observations:
+A. High volume of inbound connection attempts recorded.
+B. Multiple distinct external IPv4 addresses scanning
+C. GeoIP shows global distribution of sources.
+
 
 ## Conclusion + Lesson Learned
