@@ -112,10 +112,12 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 ![PostFirewall screenshot](images/PostFirewall.PNG)
 ![PostNSG screenshot](images/PostNSGSettings.PNG)
 ![PostNSG screenshot](images/SNG1.PNG)
-- Low volume of inbound connection attempts recorded. Overall, there were 45,836 connection attempts witin a 12 hour period
+- Low volume of inbound connection attempts recorded. Overall, there were 274 connection attempts witin a 12 hour period noted below. Within this same 12 hour period, there are 0 EventID 4625 'An account failed to login'. This confirms that our NSG and VM host firewall adjustments worked as expected by denying all traffic. There is no geolocation map since there is no EventID 4625 during this time period.
  ```bash
-  2025-10-17T17:31:22.4581272Z to 2025-10-18T05:30:39.2269356Z
+  2025-10-18T06:52:33.519572Z to 2025-10-18T17:19:02.3507623Z
 ```
+![Post hardening 1 screenshot](images/Posthardening1.PNG)
+![Post hardening 2 screenshot](images/Posthardening2.PNG)
 
 ## Conclusion + Lesson Learned
 This lab experience reinforced several key lessons relevant to SOC and IR; taught me to think like both a defender and an attacker. Seeing how quickly the honeypot was scanned after deployment gave me a real sense of how active the internet threat landscape is.
