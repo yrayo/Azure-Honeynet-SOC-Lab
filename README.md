@@ -1,8 +1,8 @@
 # Azure Cloud Environment SOC + Honeypot + Live Malicous Traffic
-## Summary:
+## Summary
 This lab allows me to demonstrates how an Azure honeypot can be used to capture live attacker activity and feed that data into Azure Sentinel for visibility and threat hunting. It shows the lifecycle from spinning up a vulnerable Windows OS machine to visualizing geolocated attacks on a Sentinel workbook.
 
-Goals:
+## Goals
 - Deploy a vulnerable Windows 10 virtual machine (honeypot) in Azure.
 - Open NSG (Network Security Group) rules to generate inbound traffic (intentionally vulnerable).
 - Forward security logs into a LAW (Log Analytics workspace).
