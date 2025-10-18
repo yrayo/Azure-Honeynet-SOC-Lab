@@ -1,4 +1,5 @@
 # Azure Cloud Environment SOC + Honeypot + Live Malicous Traffic
+Summary:
 This lab allows me to demonstrates how an Azure honeypot can be used to capture live attacker activity and feed that data into Azure Sentinel for visibility and threat hunting. It shows the lifecycle from spinning up a vulnerable Windows OS machine to visualizing geolocated attacks on a Sentinel workbook.
 
 Goals:
@@ -22,12 +23,12 @@ Architecture Components:
 - Watchlist (GeoIP CSV)
 - Sentinel Workbook (Attack Map)
 
-## Deployment Summary
-1. Create Resource Group.
+## Deployment Steps
+## 1. Create Resource Group.
 ![No resource group Screenshot](images/Resourcegroup1.png)
 ![New resource group screenshot](images/Resourcegroup2.png)
 
-2. Create Virtual Network and Subnet.
+### 2. Create Virtual Network and Subnet.
 ![No network screenshot](images/Nonetwork.PNG)
 ![New network screenshot](images/Newnetwork.PNG)
 
