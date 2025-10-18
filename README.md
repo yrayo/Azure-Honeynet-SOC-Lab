@@ -92,7 +92,7 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 ![Architecture 5 screenshot](images/Architecture5.png)
 
 ## Testing & Results
-### Pre-hardening of NSG and VM Firewall Observations:
+### Pre-hardening of NSG and VM Firewall Observations
 - High volume of inbound connection attempts recorded. Overall, there were 45,836 connection attempts witin a 12 hour period.
  ```bash
   2025-10-17T17:31:22.4581272Z to 2025-10-18T05:30:39.2269356Z.
@@ -105,7 +105,7 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 - GeoIP shows global distribution of sources.
 ![Attack Map Geolocation 1 screenshot](images/AttachMapGeo1.PNG)
 
-### Post-hardening of NSG and VM Firewall Observations:
+### Post-hardening of NSG and VM Firewall Observations
 - VM Firewall turned on and Azure NSG setting updated to secure system.
 ![PostFirewall screenshot](images/PostFirewall.PNG)
 ![PostNSG screenshot](images/PostNSGSettings.PNG)
