@@ -24,9 +24,9 @@ Architecture Components:
 
 ## Deployment Summary
 1. Create Resource Group.
-
+![No resource group Screenshot](images/Resourcegroup1.png)
 2. Create Virtual Network and Subnet.
-
+![New resource group screenshot](images/Resourcegroup2.png)
 3. Create a virtual machine (honeypot).
 
 4. Edit NSG to open inbound traffic (for lab only).
