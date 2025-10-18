@@ -94,7 +94,7 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 ## 11. Testing & Results
 ### Pre-hardening of NSG and VM Firewall Observations:
 - High volume of inbound connection attempts recorded. There were 45,836 connection attempts witin a 12 hour period starting 2025-10-17T17:31:22.4581272Z and ending 2025-10-18T05:30:39.2269356Z.
-![KQL Sample 4 screenshot](images/KQL4.png)
+![KQL Sample 4 screenshot](images/KQL4.PNG)
 
 - GeoIP shows global distribution of sources.
 ![KQL Sample 3 screenshot](images/KQL3.png)
