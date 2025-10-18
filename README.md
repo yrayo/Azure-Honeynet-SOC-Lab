@@ -111,7 +111,11 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 - VM Firewall turned on and Azure NSG setting updated to secure system
 ![PostFirewall screenshot](images/PostFirewall.PNG)
 ![PostNSG screenshot](images/PostNSGSettings.PNG)
-![PostNSG screenshot](images/SNG1.PNG) 
+![PostNSG screenshot](images/SNG1.PNG)
+- Low volume of inbound connection attempts recorded. Overall, there were 45,836 connection attempts witin a 12 hour period
+ ```bash
+  2025-10-17T17:31:22.4581272Z to 2025-10-18T05:30:39.2269356Z
+```
 
 ## Conclusion + Lesson Learned
 This lab experience reinforced several key lessons relevant to SOC and IR; taught me to think like both a defender and an attacker. Seeing how quickly the honeypot was scanned after deployment gave me a real sense of how active the internet threat landscape is.
@@ -119,7 +123,6 @@ This lab experience reinforced several key lessons relevant to SOC and IR; taugh
 - Context matters: Raw events gain meaning when enriched (e.g. with GeoIP lookups, threat intelligence, user context). The difference between an alert and a false positive often lies in enrichment
 - Assume compromise, but design for recovery: In real environments, defenses will be bypassed. Having resilient architecture (infrastructure, logging, alerting, alert playbooks) positions an organization for recovery and forensic insight
 - Iterative hardening is essential: Running the same detection suite before and after applying controls helps validate the efficacy of each mitigation. It turned abstract recommendations into measurable outcomes
-
 
 
 **This lab is for educational and personal enrichment purposes only. This project was inspired by [Josh Madakor.](https://youtu.be/g5JL2RIbThM?si=9qM-EVpNHu73wXf0)**
