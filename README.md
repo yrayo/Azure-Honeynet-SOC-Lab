@@ -1,14 +1,15 @@
 # Azure Cloud Environment SOC + Honeypot + Live Malicous Traffic
 ## Summary
-This lab allows me to demonstrates how an Azure honeypot can be used to capture live attacker activity and feed that data into Azure Sentinel for visibility and threat hunting. It shows the lifecycle from spinning up a vulnerable Windows OS machine to visualizing geolocated attacks on a Sentinel workbook.
+In this project, I built an Azure-based honeynet + SOC environment, integrating vulnerable decoy systems, telemetry ingestion, and threat-detection visualization. I deployed a honeypot VM exposed to the public internet, routed its security and network logs into Azure Log Analytics and Microsoft Sentinel, and used Kusto queries and watchlist-based geolocation to visualize attacker behavior via visual dashboards. This educational lab helped me learn how to turn raw malicious traffic into actionable insights in SOC context.
 
 ## Goals
-- Deploy a vulnerable Windows 10 virtual machine (honeypot) in Azure.
-- Open NSG (Network Security Group) rules to generate inbound traffic (intentionally vulnerable).
-- Forward security logs into a LAW (Log Analytics workspace).
-- Ingest logs into Azure SIEM (Sentinel) and create visual attack maps.
-- Run KQL (Kusto Query Language) to geolocate and analyze attack sources.
-- Harden the environment and compare pre/post results.
+- Deploy a vulnerable Windows 10 virtual machine (honeypot) in Azure
+- Open NSG (Network Security Group) rules to generate inbound traffic (intentionally vulnerable)
+- Simulate attacker behavior in Azure by deploying exposed systems to attract real-world reconnaissance and attacks
+- Forward security logs into a LAW (Log Analytics workspace)
+- Ingest logs into Azure SIEM (Sentinel) and create visual attack maps
+- Run KQL (Kusto Query Language) to geolocate and analyze attack sources
+- Harden the environment post-attack, then compare metrics and visualization to quantify improvements
 
 ## Architecture Overview
 ![Architecture Screenshot](images/Architecture.PNG)
@@ -93,20 +94,20 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 
 ## Testing & Results
 ### Pre-hardening of NSG and VM Firewall Observations
-- High volume of inbound connection attempts recorded. Overall, there were 45,836 connection attempts witin a 12 hour period.
+- High volume of inbound connection attempts recorded. Overall, there were 45,836 connection attempts witin a 12 hour period
  ```bash
   2025-10-17T17:31:22.4581272Z to 2025-10-18T05:30:39.2269356Z.
 ```
 ![KQL Sample 4 screenshot](images/KQL4.PNG)
 
-- High volume of 'An account failed to logon' messages that originated from EventID 4625. Total of 44,752 attempts within the same time parameters as mentioned above.
+- High volume of 'An account failed to logon' messages that originated from EventID 4625. Total of 44,752 attempts within the same time parameters as mentioned above
 ![KQL Sample 5 screenshot](images/KQL5.PNG)
 
-- GeoIP shows global distribution of sources.
+- GeoIP shows global distribution of sources
 ![Attack Map Geolocation 1 screenshot](images/AttachMapGeo1.PNG)
 
 ### Post-hardening of NSG and VM Firewall Observations
-- VM Firewall turned on and Azure NSG setting updated to secure system.
+- VM Firewall turned on and Azure NSG setting updated to secure system
 ![PostFirewall screenshot](images/PostFirewall.PNG)
 ![PostNSG screenshot](images/PostNSGSettings.PNG)
 
