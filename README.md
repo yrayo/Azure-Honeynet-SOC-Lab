@@ -50,14 +50,19 @@ At this point, the infrastructure looks like this:
 
 ![PING screenshot](images/PING1.png)
 
+At this point, our architecture looks like this:
+![Architecture2 screenshot](images/Architecture2.png)
+
+
 6. Create Log Analytics workspace and connect VM.
 
-7. Create/enable Azure Sentinel and connect workspace.
 
-8. Import GeoIP watchlist into Sentinel.
+8. Create/enable Azure Sentinel and connect workspace.
 
-9. Run KQL queries to geo-locate traffic.
+9. Import GeoIP watchlist into Sentinel.
 
-10. Create Sentinel workbook visualizing attack map.
+10. Run KQL queries to geo-locate traffic.
 
-11. Harden environment and re-run analysis.
+11. Create Sentinel workbook visualizing attack map.
+
+12. Harden environment and re-run analysis.
