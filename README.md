@@ -63,6 +63,7 @@ Architecture Components:
 ![New Sentinel screenshot](images/SentinelInstalled.PNG)
 
 ![Architecture 3 screenshot](images/Architecture3.PNG)
+
 ### 8. Import GeoIP watchlist into Sentinel.
 
 
