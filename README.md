@@ -35,7 +35,7 @@ Architecture Components:
 ![No VM screenshot](images/VM1.PNG)
 ![New VM screenshot](images/VM2.PNG)
 
-At this point, the infrastructure looks like this:
+  At this point, the infrastructure looks like this:
 ![New infrastructure screenshot](images/Infrastructure.PNG)
 
 4. Edit Network Security Group to open inbound traffic.
@@ -50,7 +50,7 @@ At this point, the infrastructure looks like this:
 
 ![PING screenshot](images/PING1.png)
 
-At this point, our architecture looks like this:
+  At this point, our architecture looks like this:
 ![Architecture2 screenshot](images/Architecture2.PNG)
 
 
