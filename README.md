@@ -11,3 +11,13 @@ Goals:
 
 ## Architecture Overview
 <img width="1149" height="585" alt="Architecture" src="https://github.com/user-attachments/assets/a6c916e7-62ef-4739-bc3e-1c686ac44c36" />
+
+Architecture Components:
+- Resource Group
+- Virtual Network / Subnet
+- Honeypot VM
+- Network Security Group (open rules)
+- Log Analytics Workspace
+- Azure Sentinel (Microsoft Cloud SIEM)
+- Watchlist (GeoIP CSV)
+- Sentinel Workbook (Attack Map)
