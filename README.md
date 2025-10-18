@@ -72,8 +72,22 @@ Create a Watchlist (geoip.csv) in Sentinel to hold GeoIP CSV (IP → latitude/lo
 ![KQL Sample 1 screenshot](images/KQL1.png)
 
 ### 9. Run KQL queries to geo-locate traffic.
+Below is one example we can use to ask Sentinel Logs to geo-locate alerts and create summarized tables.
+```kql
+let GeoIPDB_FULL = _GetWatchlist("geoip");
+let WindowsEvents = SecurityEvent
+| where EventID == 4625
+| order by TimeGenerated desc
+| evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network);
+WindowsEvents
+| project TimeGenerated, Computer, AttackerIp = IpAddress, cityname, countryname, latitude, longitude
+```
+![KQL Sample 2 screenshot](images/KQL2.png)
 
 ### 10. Create Sentinel workbook visualizing attack map.
+Create a workbook, add a map visualization using the KQL results with latitude/longitude fields, and configure time ranges and drill-downs for investigation.
+![KQL Sample 3 screenshot](images/KQL3.png)
+![Architecture 5 screenshot](images/Architecture5.png)
 
 ### 11. Harden environment and re-run analysis.
 
