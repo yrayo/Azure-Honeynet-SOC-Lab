@@ -22,3 +22,25 @@ Architecture Components:
 - Watchlist (GeoIP CSV)
 - Sentinel Workbook (Attack Map)
 
+## Deployment Summary
+1. Create Resource Group.
+
+2. Create Virtual Network and Subnet.
+
+3. Create a virtual machine (honeypot).
+
+4. Edit NSG to open inbound traffic (for lab only).
+
+5. Disable local Windows Firewall on the VM (if Windows).
+
+6. Create Log Analytics workspace and connect VM.
+
+7. Create/enable Azure Sentinel and connect workspace.
+
+8. Import GeoIP watchlist into Sentinel.
+
+9. Run KQL queries to geo-locate traffic.
+
+10. Create Sentinel workbook visualizing attack map.
+
+11. Harden environment and re-run analysis.
