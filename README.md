@@ -41,7 +41,7 @@ At this point, the infrastructure looks like this:
 7. Edit Network Security Group to open inbound traffic.
 ![NSG screenshot1](images/NSG1.png)
 ![NSG screenshot2](images/NSG2.png)
-![NSG screenshot3](images/NSG3.png)
+![NSG screenshot3](images/NSG3.PNG)
 
 8. Disable local Windows Firewall on the VM (if Windows).
 
