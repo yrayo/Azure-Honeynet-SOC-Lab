@@ -118,3 +118,7 @@ This lab experience reinforced several key lessons relevant to SOC and IR; taugh
 - Context matters: Raw events gain meaning when enriched (e.g. with GeoIP lookups, threat intelligence, user context). The difference between an alert and a false positive often lies in enrichment
 - Assume compromise, but design for recovery: In real environments, defenses will be bypassed. Having resilient architecture (infrastructure, logging, alerting, alert playbooks) positions an organization for recovery and forensic insight
 - Iterative hardening is essential: Running the same detection suite before and after applying controls helps validate the efficacy of each mitigation. It turned abstract recommendations into measurable outcomes
+
+
+
+**This lab is for educational and personal enrichment purposes. This project was inspired by Josh Madakor: https://youtu.be/g5JL2RIbThM?si=lxbzZ7LS99PoWA1W**
