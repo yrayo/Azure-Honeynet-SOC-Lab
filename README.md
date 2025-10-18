@@ -9,4 +9,5 @@ Goals:
 - Run KQL (Kusto Query Language) to geolocate and analyze attack sources.
 - Harden the environment and compare pre/post results.
 
-## 
+## Architecture Overview
+![Architecture](https://github.com/user-attachments/assets/6653c1ab-900b-41b7-b5d0-52f433fdddd4)
