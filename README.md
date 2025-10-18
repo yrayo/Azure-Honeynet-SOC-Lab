@@ -10,4 +10,4 @@ Goals:
 - Harden the environment and compare pre/post results.
 
 ## Architecture Overview
-<img width="872" height="460" alt="Architecture" src="https://github.com/user-attachments/assets/b5da9313-0f73-47f5-b82c-c3dd3c3602b4" />
+<img width="1149" height="585" alt="Architecture" src="https://github.com/user-attachments/assets/a6c916e7-62ef-4739-bc3e-1c686ac44c36" />
