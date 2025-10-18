@@ -86,7 +86,9 @@ WindowsEvents
 
 ### 10. Create Sentinel workbook visualizing attack map.
 Create a workbook, add a map visualization using the KQL results with latitude/longitude fields, and configure time ranges and drill-downs for investigation.
+
 ![KQL Sample 3 screenshot](images/KQL3.png)
+
 ![Architecture 5 screenshot](images/Architecture5.png)
 
 ### 11. Harden environment and re-run analysis.
