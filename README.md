@@ -43,16 +43,19 @@ At this point, the infrastructure looks like this:
 ![NSG screenshot2](images/NSG2.png)
 ![NSG screenshot3](images/NSG3.PNG)
 
-8. Disable local Windows Firewall on the VM (if Windows).
+8. Disable local Windows Firewall on the VM (Windows OS Machine). With your local machine, RDP into the VM machine. Then, ping your vulnerable machine to confirm that it's accessible to everyone.
+![RDP screenshot](images/RDP1.png)
+![FIREWALL screenshot](images/FIREWALL1.png)
+![PING screenshot](images/PING1.png)
 
-9. Create Log Analytics workspace and connect VM.
+10. Create Log Analytics workspace and connect VM.
 
-10. Create/enable Azure Sentinel and connect workspace.
+11. Create/enable Azure Sentinel and connect workspace.
 
-11. Import GeoIP watchlist into Sentinel.
+12. Import GeoIP watchlist into Sentinel.
 
-12. Run KQL queries to geo-locate traffic.
+13. Run KQL queries to geo-locate traffic.
 
-13. Create Sentinel workbook visualizing attack map.
+14. Create Sentinel workbook visualizing attack map.
 
-14. Harden environment and re-run analysis.
+15. Harden environment and re-run analysis.
