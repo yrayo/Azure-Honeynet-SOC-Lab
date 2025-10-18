@@ -99,7 +99,7 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 ```
 ![KQL Sample 4 screenshot](images/KQL4.PNG)
 
-- High volume of 'An account failed to logon' messages that originated from EventID 4625. Total of
+- High volume of 'An account failed to logon' messages that originated from EventID 4625. Total of 44,752 attempts within the same time parameters as mentioned above.
 ![KQL Sample 5 screenshot](images/KQL5.PNG)
 
 - GeoIP shows global distribution of sources.
