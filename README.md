@@ -111,7 +111,7 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 - VM Firewall turned on and Azure NSG setting updated to secure system
 ![PostFirewall screenshot](images/PostFirewall.PNG)
 ![PostNSG screenshot](images/PostNSGSettings.PNG)
-
+![PostNSG screenshot](images/SNG1.PNG) 
 
 ## Conclusion + Lesson Learned
 This lab experience reinforced several key lessons relevant to SOC and IR; taught me to think like both a defender and an attacker. Seeing how quickly the honeypot was scanned after deployment gave me a real sense of how active the internet threat landscape is.
