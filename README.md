@@ -54,6 +54,7 @@ Architecture Components:
 ![Architecture2 screenshot](images/Architecture2.PNG)
 
 6. Create Log Analytics workspace and connect VM.
+   
 ![No LAW screenshot](images/LAW1.png)
 ![New LAW screenshot](images/LAW2.png)
 
