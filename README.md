@@ -57,12 +57,13 @@ Architecture Components:
 ![No LAW screenshot](images/LAW1.png)
 ![New LAW screenshot](images/LAW2.png)
 
-8. Create/enable Azure Sentinel and connect workspace.
+7. Create/enable Azure Sentinel and connect workspace.
 
-9. Import GeoIP watchlist into Sentinel.
 
-10. Run KQL queries to geo-locate traffic.
+8. Import GeoIP watchlist into Sentinel.
 
-11. Create Sentinel workbook visualizing attack map.
+9. Run KQL queries to geo-locate traffic.
 
-12. Harden environment and re-run analysis.
+10. Create Sentinel workbook visualizing attack map.
+
+11. Harden environment and re-run analysis.
