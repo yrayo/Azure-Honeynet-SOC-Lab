@@ -59,7 +59,7 @@ Architecture Components:
 ![New LAW screenshot](images/LAW2.png)
 
 7. Create/enable Azure Sentinel and connect workspace.
-
+![New Sentinel screenshot](images/SentinelInstalled.PNG)
 
 8. Import GeoIP watchlist into Sentinel.
 
