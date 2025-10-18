@@ -114,7 +114,7 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 
 
 ## Conclusion + Lesson Learned
-This lab experience reinforced several key lessons relevant to SOC and IR; taught me to think like both a defender and an attacker. Seeing how quickly the honeypot was scanned after deployment gave me a real sense of how active the internet threat landscape is:
+This lab experience reinforced several key lessons relevant to SOC and IR; taught me to think like both a defender and an attacker. Seeing how quickly the honeypot was scanned after deployment gave me a real sense of how active the internet threat landscape is.
 - Visibility is crucial: Without properly configured logging and telemetry pipelines, even sophisticated attacks remain invisible. Ensuring every layer (NSG, VM OS, Azure diagnostics) feeds data into a central SIEM is critical
 - Context matters: Raw events gain meaning when enriched (e.g. with GeoIP lookups, threat intelligence, user context). The difference between an alert and a false positive often lies in enrichment
 - Assume compromise, but design for recovery: In real environments, defenses will be bypassed. Having resilient architecture (infrastructure, logging, alerting, alert playbooks) positions an organization for recovery and forensic insight
