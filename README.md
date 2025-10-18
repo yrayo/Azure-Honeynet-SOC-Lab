@@ -27,37 +27,37 @@ Architecture Components:
 ![No resource group Screenshot](images/Resourcegroup1.png)
 ![New resource group screenshot](images/Resourcegroup2.png)
 
-3. Create Virtual Network and Subnet.
+2. Create Virtual Network and Subnet.
 ![No network screenshot](images/Nonetwork.PNG)
 ![New network screenshot](images/Newnetwork.PNG)
 
-5. Create a virtual machine (honeypot).
+3. Create a virtual machine (honeypot).
 ![No VM screenshot](images/VM1.PNG)
 ![New VM screenshot](images/VM2.PNG)
 
 At this point, the infrastructure looks like this:
 ![New infrastructure screenshot](images/Infrastructure.PNG)
 
-7. Edit Network Security Group to open inbound traffic.
+4. Edit Network Security Group to open inbound traffic.
 ![NSG screenshot1](images/NSG1.png)
 ![NSG screenshot2](images/NSG2.png)
 ![NSG screenshot3](images/NSG3.PNG)
 
-8. Disable local Windows Firewall on the VM (Windows OS Machine). With your local machine, RDP into the VM machine. Then, ping your vulnerable machine to confirm that it's accessible to everyone.
+5. Disable local Windows Firewall on the VM (Windows OS Machine). With your local machine, RDP into the VM machine. Then, ping your vulnerable machine to confirm that it's accessible to everyone.
 ![RDP screenshot](images/RDP1.png)
 
 ![FIREWALL screenshot](images/FIREWALL1.png)
 
 ![PING screenshot](images/PING1.png)
 
-10. Create Log Analytics workspace and connect VM.
+6. Create Log Analytics workspace and connect VM.
 
-11. Create/enable Azure Sentinel and connect workspace.
+7. Create/enable Azure Sentinel and connect workspace.
 
-12. Import GeoIP watchlist into Sentinel.
+8. Import GeoIP watchlist into Sentinel.
 
-13. Run KQL queries to geo-locate traffic.
+9. Run KQL queries to geo-locate traffic.
 
-14. Create Sentinel workbook visualizing attack map.
+10. Create Sentinel workbook visualizing attack map.
 
-15. Harden environment and re-run analysis.
+11. Harden environment and re-run analysis.
