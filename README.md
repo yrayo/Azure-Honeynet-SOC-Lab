@@ -97,6 +97,6 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 ![KQL Sample 4 screenshot](images/KQL4.PNG)
 
 - GeoIP shows global distribution of sources.
-![KQL Sample 3 screenshot](images/KQL3.png)
+![Attack Map Geolocation 1 screenshot](images/AttachMapGeo1.PNG)
 
 ## Conclusion + Lesson Learned
