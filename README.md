@@ -10,7 +10,7 @@ Goals:
 - Harden the environment and compare pre/post results.
 
 ## Architecture Overview
-<img width="1149" height="585" alt="Architecture" src="https://github.com/user-attachments/assets/a6c916e7-62ef-4739-bc3e-1c686ac44c36" />
+![App Screenshot](/images/Architecture.PNG)
 
 Architecture Components:
 - Resource Group
