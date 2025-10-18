@@ -24,7 +24,7 @@ Architecture Components:
 - Sentinel Workbook (Attack Map)
 
 ## Deployment Steps
-## 1. Create Resource Group.
+### 1. Create Resource Group.
 ![No resource group Screenshot](images/Resourcegroup1.png)
 ![New resource group screenshot](images/Resourcegroup2.png)
 
@@ -32,19 +32,19 @@ Architecture Components:
 ![No network screenshot](images/Nonetwork.PNG)
 ![New network screenshot](images/Newnetwork.PNG)
 
-3. Create a virtual machine (honeypot).
+### 3. Create a virtual machine (honeypot).
 ![No VM screenshot](images/VM1.PNG)
 ![New VM screenshot](images/VM2.PNG)
 
   At this point, the infrastructure looks like this:
 ![New infrastructure screenshot](images/Infrastructure.PNG)
 
-4. Edit Network Security Group to open inbound traffic.
+### 4. Edit Network Security Group to open inbound traffic.
 ![NSG screenshot1](images/NSG1.png)
 ![NSG screenshot2](images/NSG2.png)
 ![NSG screenshot3](images/NSG3.PNG)
 
-5. Disable local Windows Firewall on the VM (Windows OS Machine). With your local machine, RDP into the VM machine. Then, ping your vulnerable machine to confirm that it's accessible to everyone.
+### 5. Disable local Windows Firewall on the VM (Windows OS Machine). With your local machine, RDP into the VM machine. Then, ping your vulnerable machine to confirm that it's accessible to everyone.
 ![RDP screenshot](images/RDP1.png)
 
 ![FIREWALL screenshot](images/FIREWALL1.png)
@@ -54,18 +54,20 @@ Architecture Components:
   At this point, our architecture looks like this:
 ![Architecture2 screenshot](images/Architecture2.PNG)
 
-6. Create Log Analytics workspace and connect VM.
+### 6. Create Log Analytics workspace and connect VM.
    
 ![No LAW screenshot](images/LAW1.png)
 ![New LAW screenshot](images/LAW2.png)
 
-7. Create/enable Azure Sentinel and connect workspace.
+### 7. Create/enable Azure Sentinel and connect workspace.
 ![New Sentinel screenshot](images/SentinelInstalled.PNG)
 
-8. Import GeoIP watchlist into Sentinel.
+### 8. Import GeoIP watchlist into Sentinel.
 
-9. Run KQL queries to geo-locate traffic.
+### 9. Run KQL queries to geo-locate traffic.
 
-10. Create Sentinel workbook visualizing attack map.
+### 10. Create Sentinel workbook visualizing attack map.
 
-11. Harden environment and re-run analysis.
+### 11. Harden environment and re-run analysis.
+
+## Conclusion + Lesson Learned
