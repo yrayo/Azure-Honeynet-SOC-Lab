@@ -45,7 +45,9 @@ At this point, the infrastructure looks like this:
 
 8. Disable local Windows Firewall on the VM (Windows OS Machine). With your local machine, RDP into the VM machine. Then, ping your vulnerable machine to confirm that it's accessible to everyone.
 ![RDP screenshot](images/RDP1.png)
+
 ![FIREWALL screenshot](images/FIREWALL1.png)
+
 ![PING screenshot](images/PING1.png)
 
 10. Create Log Analytics workspace and connect VM.
