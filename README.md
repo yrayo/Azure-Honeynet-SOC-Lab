@@ -48,6 +48,7 @@ Add lab NSG rule (Source: `Any`, Destination Port: `*`, Action: `Allow`).
 
 ### 5. Disable local Windows Firewall on the VM (Windows OS Machine). 
 With your local host machine, RDP into the VM machine. Then, ping your vulnerable machine to confirm that it's accessible to everyone.
+
 ![RDP screenshot](images/RDP1.png)
 
 ![FIREWALL screenshot](images/FIREWALL1.png)
