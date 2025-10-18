@@ -59,10 +59,12 @@ Architecture Components:
 ![No LAW screenshot](images/LAW1.png)
 ![New LAW screenshot](images/LAW2.png)
 
-### 7. Create/enable Azure Sentinel and connect workspace.
+### 7. Create/enable Azure Sentinel, connect to workspace, and ensure SecurityEvent logs (Windows) are forwarding to Log Analytics.
 ![New Sentinel screenshot](images/SentinelInstalled.PNG)
 
+![Architecture 3 screenshot](images/Architecture3.PNG)
 ### 8. Import GeoIP watchlist into Sentinel.
+
 
 ### 9. Run KQL queries to geo-locate traffic.
 
