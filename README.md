@@ -93,11 +93,14 @@ Create a workbook, add a map visualization using the KQL results with latitude/l
 
 ## 11. Testing & Results
 ### Pre-hardening of NSG and VM Firewall Observations:
-- High volume of inbound connection attempts recorded. There were 45,836 connection attempts witin a 12 hour period
+- High volume of inbound connection attempts recorded. Overall, there were 45,836 connection attempts witin a 12 hour period
  ```bash
   2025-10-17T17:31:22.4581272Z to 2025-10-18T05:30:39.2269356Z.
 ```
 ![KQL Sample 4 screenshot](images/KQL4.PNG)
+
+- High volume of 'An account failed to logon' messages that originated from EventID 4625. Total of
+![KQL Sample 5 screenshot](images/KQL5.PNG)
 
 - GeoIP shows global distribution of sources.
 ![Attack Map Geolocation 1 screenshot](images/AttachMapGeo1.PNG)
