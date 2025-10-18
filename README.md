@@ -121,4 +121,4 @@ This lab experience reinforced several key lessons relevant to SOC and IR; taugh
 
 
 
-**This lab is for educational and personal enrichment purposes. This project was inspired by Josh Madakor: https://youtu.be/g5JL2RIbThM?si=lxbzZ7LS99PoWA1W**
+**This lab is for educational and personal enrichment purposes. This project was inspired by [Josh Madakor](https://github.com/matiassingers/awesome-readme)**
