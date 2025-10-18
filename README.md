@@ -25,22 +25,33 @@ Architecture Components:
 ## Deployment Summary
 1. Create Resource Group.
 ![No resource group Screenshot](images/Resourcegroup1.png)
-2. Create Virtual Network and Subnet.
 ![New resource group screenshot](images/Resourcegroup2.png)
-3. Create a virtual machine (honeypot).
 
-4. Edit NSG to open inbound traffic (for lab only).
+3. Create Virtual Network and Subnet.
+![No network screenshot](images/Nonetwork.PNG)
+![New network screenshot](images/Newnetwork.PNG)
 
-5. Disable local Windows Firewall on the VM (if Windows).
+5. Create a virtual machine (honeypot).
+![No VM screenshot](images/VM1.PNG)
+![New VM screenshot](images/VM2.PNG)
 
-6. Create Log Analytics workspace and connect VM.
+At this point, the infrastructure looks like this:
+![New infrastructure screenshot](images/Infrastructure.PNG)
 
-7. Create/enable Azure Sentinel and connect workspace.
+7. Edit NSG to open inbound traffic (for lab only).
+![No NSG screenshot]()
+![New NSG screenshot]()
 
-8. Import GeoIP watchlist into Sentinel.
+8. Disable local Windows Firewall on the VM (if Windows).
 
-9. Run KQL queries to geo-locate traffic.
+9. Create Log Analytics workspace and connect VM.
 
-10. Create Sentinel workbook visualizing attack map.
+10. Create/enable Azure Sentinel and connect workspace.
 
-11. Harden environment and re-run analysis.
+11. Import GeoIP watchlist into Sentinel.
+
+12. Run KQL queries to geo-locate traffic.
+
+13. Create Sentinel workbook visualizing attack map.
+
+14. Harden environment and re-run analysis.
