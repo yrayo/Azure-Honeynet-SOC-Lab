@@ -67,7 +67,9 @@ At this point, our architecture looks like this:
 ![Architecture 3 screenshot](images/Architecture4.PNG)
 
 ### 8. Import GeoIP watchlist into Sentinel.
-Import Watchlists (GeoIP)
+Create a Watchlist (geoip.csv) in Sentinel to hold GeoIP CSV (IP → latitude/longitude). Use the watchlist for KQL geolocation join lookups.
+![Sentinel Watchlist Created screenshot](images/WatchlistSentinel.PNG)
+![KQL Sample 1 screenshot](images/KQL1.png)
 
 ### 9. Run KQL queries to geo-locate traffic.
 
